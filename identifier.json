@@ -17,8 +17,12 @@
       "description": "A textual or numeric identifier, acronym or URI that provides an unambiguous reference for an entity within a given context.",
       "type": ["string", "number"]
     },
-    "reference": {
-      "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"         
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"
+      },
+      "minItems": 1
     }
   },
   "required": [
