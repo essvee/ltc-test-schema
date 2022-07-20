@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$schema": "https://json-schema.org/draft-04/schema#",
   "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json",
   "title": "Identifier",
   "description": "A numeric, textual value, or reference such as an IRI, that can be used to uniquely identify the object to which it is attached.",

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$schema": "https://json-schema.org/draft-04/schema#",
   "$id": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json",
   "title": "Reference",
   "description": "A reference to external resources and information related to the collection description.",
@@ -22,7 +22,12 @@
       "type": "string"
     },
     "identifier": {
-      "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
     }
   }
 }
