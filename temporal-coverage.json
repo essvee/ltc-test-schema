@@ -15,13 +15,27 @@
         {
             "description": "End date of the time range of the collection.",
             "type": "string",
-            "format": "date"
+            "oneOf": [
+                {
+                  "format": "date"
+                },
+                {
+                  "format": "date-time"
+                }
+              ]
         },
         "temporalCoverageStartDate":
         {
             "description": "Start date of the time range of the collection.",
             "type": "string",
-            "format": "date"
+            "oneOf": [
+                {
+                  "format": "date"
+                },
+                {
+                  "format": "date-time"
+                }
+              ]
         },
         "reference":
         {
