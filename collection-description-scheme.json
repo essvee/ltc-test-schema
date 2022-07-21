@@ -18,6 +18,7 @@
       "type": "string"
     },
     "identifier": {
+      "description": "One or more Identifiers relating to the Collection Description Scheme",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
@@ -26,6 +27,7 @@
       "uniqueItems": true
     },
     "reference": {
+      "description": "One or more References relating to the Collection Description Scheme",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"

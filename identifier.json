@@ -18,6 +18,7 @@
       "type": ["string", "number"]
     },
     "reference": {
+      "description": "One or more References relating to the Identifier",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/reference.json"

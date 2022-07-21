@@ -18,6 +18,7 @@
       "type": "string"
     },
     "identifier": {
+      "description": "One or more Identifiers relating to the Contact Detail",
       "type": "array",
       "items": {
         "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/identifier.json"
