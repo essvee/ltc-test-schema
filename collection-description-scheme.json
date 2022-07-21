@@ -17,6 +17,24 @@
       "description": "A short descriptive name given to the CollectionDescriptionScheme.",
       "type": "string"
     },
+    "schemeTerm": {
+      "description": "One or more Scheme Terms incorporated in the Collection Description Scheme",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/scheme-term.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "schemeMeasurementOrFact": {
+      "description": "One or more Scheme Measurement Or Facts incorporated in the Collection Description Scheme",
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/scheme-measurement-or-fact.json"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
     "identifier": {
       "description": "One or more Identifiers relating to the Collection Description Scheme",
       "type": "array",

@@ -19,7 +19,7 @@
         "relationshipEstablishedDate":
         {
             "description": "The date-time on which the relationship between the two resources was established.",
-            "type": "string",
+            "type": "string"
         },
         "relationshipAccordingTo":
         {
