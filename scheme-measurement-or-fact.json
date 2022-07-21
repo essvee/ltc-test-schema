@@ -45,7 +45,7 @@
         }
     },
     "required":
-    [
+    [   "schemeMeasurementType",
         "mandatoryMetric",
         "repeatableMetric"
     ]
