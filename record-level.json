@@ -35,6 +35,17 @@
         {
             "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/collection-description-scheme.json"
         },
+        "objectGroup":
+        {
+            "description": "One or more Object Groups described by the Record Level",
+            "type": "array",
+            "items":
+            {
+                "$ref": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/object-group.json"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
         "reference":
         {
             "description": "One or more References relating to the Record Level",
@@ -83,6 +94,7 @@
     "required":
     [
         "collectionDescriptionPID",
-        "license"
+        "license",
+        "objectGroup"
     ]
 }
