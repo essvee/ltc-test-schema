@@ -8,8 +8,8 @@
       "schemeName": "Institutional Registry Project",
       "identifier": [
         {
-          "identifierType": "LtC Schema ID",
-          "identifier": "0000-0000-0000-0000"
+          "identifierType": "URI",
+          "identifier": "https://raw.githubusercontent.com/essvee/ltc-test-schema/main/record-level.json"
         }
       ],
       "reference": [
